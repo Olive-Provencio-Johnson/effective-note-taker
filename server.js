@@ -49,6 +49,7 @@ app.post('/api/notes', (req, res) => {
     })
 })
 
+// allows users to delete notes 
 app.delete('/api/notes/:id', (req, res) => {
     var clicked = req.params.id
 
