@@ -4,7 +4,7 @@ var { v4:uuidv4 } = require('uuid')
 var path = require('path')
 
 var app = express()
-var PORT = process.env.PORT | 3001
+var PORT = process.env.PORT || 3001
 
 // Express Middleware for parsing JSON and urlencoded form data
 app.use(express.urlencoded({extended: true}))
