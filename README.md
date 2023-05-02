@@ -17,6 +17,8 @@ This application was built for anyone who wants to write and save notes, keeping
 ## How to Use this Application
 Once you have installed the dependencies listed above within the folder where the code was originally cloned, start the server by entering $ node server.js in the command line. This will start the server and direct you to http://localhost:3001
 
+The deployed application can also be viewed at [https://cryptic-citadel-54498.herokuapp.com/](https://cryptic-citadel-54498.herokuapp.com/)
+
 
 ## Credits 
 The server.js file was created by Olive Provencio-Johnson
